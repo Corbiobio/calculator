@@ -1,15 +1,53 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="/vite.svg">
+<head>
+    <meta charset="UTF-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- link css here only when ccs is not imported in js yet -->
-    <!-- <link rel="stylesheet" href="/css/style.css"> -->
-    <title>Hello</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <!-- <script src="./js/app.js" type="module"></script> -->
-  </body>
+    <meta name="description" content="description du site">
+    <title> titre du site </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="calculator">
+        <div id="ecran"><p id="resultat"></p></div>
+
+        <article class="container">
+            <div class="button" id="fois">*</div>
+            <div class="button" id="divise">/</div>
+            <div class="button" id="moin">-</div>
+            <div class="button" id="plus">+</div>
+        </article>
+
+        <article class="container">
+            <div class="button" id="h9">9</div>
+            <div class="button" id="h8">8</div>
+            <div class="button" id="h7">7</div>
+            <div class="button" id="h6">6</div>
+        </article>
+
+        <article class="container">
+            <div class="button" id="h5">5</div>
+            <div class="button" id="h4">4</div>
+            <div class="button" id="h3">3</div>
+            <div class="button" id="h2">2</div>
+        </article>
+
+        <article class="container">
+            <div class="button" id="h1">1</div>
+            <div class="button" id="h0">0</div>
+            <div class="button" id="point">.</div>
+            <div class="button" id="egal">=</div>
+        </article>
+
+        <article class="container">
+            <div class="button" id="o">O</div>
+        </article>
+    </div>
+
+    
+
+
+<script src="app.js"></script>
+</body>
 </html>
